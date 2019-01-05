@@ -1,0 +1,9 @@
+c_compiler:
+- gcc
+channel_sources:
+- conda-forge,defaults
+ncurses:
+- '6.1'
+pin_run_as_build:
+  ncurses:
+    max_pin: x.x
