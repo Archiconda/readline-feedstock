@@ -1,7 +1,10 @@
+BUILD: aarch64-conda_cos7-linux-gnu
 c_compiler:
 - gcc
 channel_sources:
-- conda-forge,defaults
+- archiarm,
+channel_targets:
+- archiarm main
 ncurses:
 - '6.1'
 pin_run_as_build:
